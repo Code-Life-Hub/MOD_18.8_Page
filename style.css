@@ -1,0 +1,22 @@
+#e-Mail {
+    display:flex;
+    flex-direction: column;
+   /* border: solid red 2px; */
+   font-size:16px;
+   font-weight: 600;
+}
+#e-Mail > div {
+    display:flex;
+    flex-direction: column;
+    margin-bottom:24px;
+} 
+    /* make the input box for the message larger */
+#message {
+    height: 200px;
+    width: 100%;
+}
+#e-Mail > input {  
+    width:10%;
+}
+
+    
